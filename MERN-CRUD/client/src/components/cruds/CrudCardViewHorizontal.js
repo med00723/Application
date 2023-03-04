@@ -20,10 +20,10 @@ function CrudCardViewHorizontal() {
 	return (
 		<div className="container">
 			<h2>
-				CRUD - Row Card View
+				List of Company
 				<p>
 					<Link to="/cruds/new" className="btn btn-primary">
-						Create CRUD
+					Create Company
 					</Link>
 				</p>
 			</h2>

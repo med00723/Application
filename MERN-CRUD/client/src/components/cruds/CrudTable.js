@@ -21,10 +21,10 @@ function CrudTable() {
 		<div className="container">
 			<div>
 				<h2>
-					CRUD - Table View
+					List of Company
 					<p>
 						<Link to="/cruds/new" className="btn btn-primary float-right">
-							Create CRUD
+						Create Company
 						</Link>
 					</p>
 				</h2>

@@ -14,7 +14,7 @@ const crudRoutes = require("./routes/crudRoutes");
 require("dotenv").config();
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8081;
 
 // database connection
 connection();

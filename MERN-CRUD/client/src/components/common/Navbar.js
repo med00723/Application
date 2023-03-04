@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div className="container">
 				<NavLink className="navbar-brand" hrefLang="https://henok.us" to="/">
-					Henok
+					Acceuil
 				</NavLink>
 				<button
 					className="navbar-toggler collapsed"
@@ -38,18 +38,10 @@ const Navbar = () => {
 								activeClassName="active"
 								to="/cruds"
 							>
-								CRUDs
+								Companys
 							</NavLink>
 						</li>
-						<li className="nav-item">
-							<NavLink
-								className="nav-link"
-								activeClassName="active"
-								to="/cruds/grid-view"
-							>
-								Grid View
-							</NavLink>
-						</li>
+					
 						<li className="nav-item">
 							<NavLink
 								className="nav-link"

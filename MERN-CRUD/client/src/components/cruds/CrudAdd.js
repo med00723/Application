@@ -39,7 +39,7 @@ function CrudAdd(props) {
 
 	return (
 		<div className="container" style={{ maxWidth: "400px" }}>
-			<h1>Create CRUD</h1>
+			<h1>Create Company</h1>
 			<hr />
 			<form onSubmit={handleSubmit}>
 				<div className="form-group">
@@ -57,14 +57,13 @@ function CrudAdd(props) {
 					<label>Phone</label>
 					<input
 						name="phone"
-						type="tel"
-						pattern="(251)-[0-9]{3}-[0-9]{6}"
+						type="text"
+					
 						required
 						value={crud.phone}
 						onChange={handleChange}
 						className="form-control"
 					/>
-					<small>Format: 251-XXX-XXXXXX</small>
 				</div>
 				<div className="form-group">
 					<label>Email</label>
@@ -93,12 +92,11 @@ function CrudAdd(props) {
 					<label>Website/Social Link</label>
 					<input
 						name="link"
-						type="url"
+						type="text"
 						value={crud.link}
 						onChange={handleChange}
 						className="form-control"
 					/>
-					<small>Format: https://yourlink.ext</small>
 				</div>
 
 				<div className="form-group">

@@ -20,11 +20,11 @@ function CrudListView() {
 	return (
 		<div className="container">
 			<h2>
-				CRUD - List View
+				List of Company
 				<p>
 					<Link to="/cruds/new" className="btn btn-primary">
-						Create CRUD
-					</Link>
+					Create Company
+										</Link>
 				</p>
 			</h2>
 			<hr />
